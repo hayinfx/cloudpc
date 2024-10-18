@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.termux.shared.shell;
+package com.termin.shared.shell;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -28,7 +28,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.WorkerThread;
 
-import com.termux.shared.logger.Logger;
+import com.termin.shared.logger.Logger;
 
 /**
  * Thread utility class continuously reading from an InputStream

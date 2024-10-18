@@ -1,4 +1,4 @@
-package com.termux.shared.settings.properties;
+package com.termin.shared.settings.properties;
 
 import android.content.Context;
 

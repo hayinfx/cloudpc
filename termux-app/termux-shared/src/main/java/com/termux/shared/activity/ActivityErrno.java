@@ -1,6 +1,6 @@
-package com.termux.shared.activity;
+package com.termin.shared.activity;
 
-import com.termux.shared.errors.Errno;
+import com.termin.shared.errors.Errno;
 
 public class ActivityErrno extends Errno {
 

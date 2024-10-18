@@ -23,7 +23,7 @@
  * questions.
  */
 
-package com.termux.shared.file.filesystem;
+package com.termin.shared.file.filesystem;
 
 import androidx.annotation.NonNull;
 

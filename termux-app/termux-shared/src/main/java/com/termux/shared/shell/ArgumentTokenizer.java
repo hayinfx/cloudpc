@@ -34,7 +34,7 @@
  *
  * END_COPYRIGHT_BLOCK*/
 
-package com.termux.shared.shell;
+package com.termin.shared.shell;
 
 import java.util.List;
 import java.util.LinkedList;

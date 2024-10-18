@@ -1,4 +1,4 @@
-package com.termux.shared.settings.preferences;
+package com.termin.shared.settings.preferences;
 
 import android.content.Context;
 import android.content.SharedPreferences;

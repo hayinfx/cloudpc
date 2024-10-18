@@ -1,4 +1,4 @@
-package com.termux.app.terminal;
+package com.termin.app.terminal;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -17,32 +17,32 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.termux.R;
-import com.termux.app.TermuxActivity;
-import com.termux.shared.file.FileUtils;
-import com.termux.shared.interact.MessageDialogUtils;
-import com.termux.shared.interact.ShareUtils;
-import com.termux.shared.shell.ShellUtils;
-import com.termux.shared.termux.TermuxBootstrap;
-import com.termux.shared.termux.terminal.TermuxTerminalViewClientBase;
-import com.termux.shared.termux.extrakeys.SpecialButton;
-import com.termux.shared.android.AndroidUtils;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.activities.ReportActivity;
-import com.termux.shared.models.ReportInfo;
-import com.termux.app.models.UserAction;
-import com.termux.app.terminal.io.KeyboardShortcut;
-import com.termux.shared.termux.settings.properties.TermuxPropertyConstants;
-import com.termux.shared.data.DataUtils;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.markdown.MarkdownUtils;
-import com.termux.shared.termux.TermuxUtils;
-import com.termux.shared.termux.data.TermuxUrlUtils;
-import com.termux.shared.view.KeyboardUtils;
-import com.termux.shared.view.ViewUtils;
-import com.termux.terminal.KeyHandler;
-import com.termux.terminal.TerminalEmulator;
-import com.termux.terminal.TerminalSession;
+import com.termin.R;
+import com.termin.app.TermuxActivity;
+import com.termin.shared.file.FileUtils;
+import com.termin.shared.interact.MessageDialogUtils;
+import com.termin.shared.interact.ShareUtils;
+import com.termin.shared.shell.ShellUtils;
+import com.termin.shared.termux.TermuxBootstrap;
+import com.termin.shared.termux.terminal.TermuxTerminalViewClientBase;
+import com.termin.shared.termux.extrakeys.SpecialButton;
+import com.termin.shared.android.AndroidUtils;
+import com.termin.shared.termux.TermuxConstants;
+import com.termin.shared.activities.ReportActivity;
+import com.termin.shared.models.ReportInfo;
+import com.termin.app.models.UserAction;
+import com.termin.app.terminal.io.KeyboardShortcut;
+import com.termin.shared.termux.settings.properties.TermuxPropertyConstants;
+import com.termin.shared.data.DataUtils;
+import com.termin.shared.logger.Logger;
+import com.termin.shared.markdown.MarkdownUtils;
+import com.termin.shared.termux.TermuxUtils;
+import com.termin.shared.termux.data.TermuxUrlUtils;
+import com.termin.shared.view.KeyboardUtils;
+import com.termin.shared.view.ViewUtils;
+import com.termin.terminal.KeyHandler;
+import com.termin.terminal.TerminalEmulator;
+import com.termin.terminal.TerminalSession;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -152,7 +152,7 @@ public class TermuxTerminalViewClient extends TermuxTerminalViewClientBase {
     }
 
     /**
-     * Should be called when {@link com.termux.view.TerminalView#mEmulator} is set
+     * Should be called when {@link com.termin.view.TerminalView#mEmulator} is set
      */
     @Override
     public void onEmulatorSet() {

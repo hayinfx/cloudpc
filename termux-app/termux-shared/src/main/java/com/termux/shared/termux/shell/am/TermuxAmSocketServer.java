@@ -1,4 +1,4 @@
-package com.termux.shared.termux.shell.am;
+package com.termin.shared.termux.shell.am;
 
 import android.content.Context;
 
@@ -6,21 +6,21 @@ import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termux.shared.errors.Error;
-import com.termux.shared.logger.Logger;
-import com.termux.shared.net.socket.local.LocalClientSocket;
-import com.termux.shared.net.socket.local.LocalServerSocket;
-import com.termux.shared.net.socket.local.LocalSocketManager;
-import com.termux.shared.net.socket.local.LocalSocketManagerClientBase;
-import com.termux.shared.net.socket.local.LocalSocketRunConfig;
-import com.termux.shared.shell.am.AmSocketServerRunConfig;
-import com.termux.shared.shell.am.AmSocketServer;
-import com.termux.shared.termux.TermuxConstants;
-import com.termux.shared.termux.crash.TermuxCrashUtils;
-import com.termux.shared.termux.plugins.TermuxPluginUtils;
-import com.termux.shared.termux.settings.properties.TermuxAppSharedProperties;
-import com.termux.shared.termux.settings.properties.TermuxPropertyConstants;
-import com.termux.shared.termux.shell.command.environment.TermuxAppShellEnvironment;
+import com.termin.shared.errors.Error;
+import com.termin.shared.logger.Logger;
+import com.termin.shared.net.socket.local.LocalClientSocket;
+import com.termin.shared.net.socket.local.LocalServerSocket;
+import com.termin.shared.net.socket.local.LocalSocketManager;
+import com.termin.shared.net.socket.local.LocalSocketManagerClientBase;
+import com.termin.shared.net.socket.local.LocalSocketRunConfig;
+import com.termin.shared.shell.am.AmSocketServerRunConfig;
+import com.termin.shared.shell.am.AmSocketServer;
+import com.termin.shared.termux.TermuxConstants;
+import com.termin.shared.termux.crash.TermuxCrashUtils;
+import com.termin.shared.termux.plugins.TermuxPluginUtils;
+import com.termin.shared.termux.settings.properties.TermuxAppSharedProperties;
+import com.termin.shared.termux.settings.properties.TermuxPropertyConstants;
+import com.termin.shared.termux.shell.command.environment.TermuxAppShellEnvironment;
 
 /**
  * A wrapper for {@link AmSocketServer} for termux-app usage.

@@ -1,4 +1,4 @@
-package com.termux.terminal;
+package com.termin.terminal;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
