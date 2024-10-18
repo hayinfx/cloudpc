@@ -1,11 +1,11 @@
-package com.termin.shared.termux.terminal;
+package com.termux.shared.termux.terminal;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.termin.shared.logger.Logger;
-import com.termin.terminal.TerminalSession;
-import com.termin.terminal.TerminalSessionClient;
+import com.termux.shared.logger.Logger;
+import com.termux.terminal.TerminalSession;
+import com.termux.terminal.TerminalSessionClient;
 
 public class TermuxTerminalSessionClientBase implements TerminalSessionClient {
 

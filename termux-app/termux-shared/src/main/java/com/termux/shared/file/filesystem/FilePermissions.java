@@ -23,9 +23,9 @@
  * questions.
  */
 
-package com.termin.shared.file.filesystem;
+package com.termux.shared.file.filesystem;
 
-import static com.termin.shared.file.filesystem.FilePermission.*;
+import static com.termux.shared.file.filesystem.FilePermission.*;
 
 import java.util.*;
 

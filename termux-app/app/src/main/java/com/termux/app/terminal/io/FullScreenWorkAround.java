@@ -1,10 +1,10 @@
-package com.termin.app.terminal.io;
+package com.termux.app.terminal.io;
 
 import android.graphics.Rect;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.termin.app.TermuxActivity;
+import com.termux.app.TermuxActivity;
 
 /**
  * Work around for fullscreen mode in Termux to fix ExtraKeysView not being visible.

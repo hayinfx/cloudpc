@@ -1,4 +1,4 @@
-package com.termin.terminal;
+package com.termux.terminal;
 
 /**
  * Implementation of wcwidth(3) for Unicode 15.

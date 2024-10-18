@@ -1,4 +1,4 @@
-package com.termin.shared.theme;
+package com.termux.shared.theme;
 
 import android.app.Activity;
 import android.content.Context;

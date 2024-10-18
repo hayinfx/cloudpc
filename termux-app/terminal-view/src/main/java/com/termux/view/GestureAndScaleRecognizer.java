@@ -1,4 +1,4 @@
-package com.termin.view;
+package com.termux.view;
 
 import android.content.Context;
 import android.view.GestureDetector;

@@ -1,6 +1,6 @@
-package com.termin.shared.file;
+package com.termux.shared.file;
 
-import com.termin.shared.errors.Errno;
+import com.termux.shared.errors.Errno;
 
 import java.util.HashMap;
 import java.util.Map;

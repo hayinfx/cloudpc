@@ -1,4 +1,4 @@
-package com.termin.terminal;
+package com.termux.terminal;
 
 import java.util.Map;
 import java.util.Properties;

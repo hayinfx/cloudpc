@@ -1,10 +1,10 @@
-package com.termin.shared.theme;
+package com.termux.shared.theme;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatDelegate;
 
-import com.termin.shared.logger.Logger;
+import com.termux.shared.logger.Logger;
 
 /** The modes used by to decide night mode for themes. */
 public enum NightMode {
