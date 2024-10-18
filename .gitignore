@@ -1,0 +1,5 @@
+android_sdk/
+amdroid_sdk
+andrpid_sdk/*
+#AndroidIDE/
+#termux-app/
