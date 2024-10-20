@@ -1,0 +1,31 @@
+<libraries>
+  <library
+      name=":@@:libtermexec::debug"
+      jars="/home/codespace/.gradle/caches/8.10.2/transforms/156a123448a7a8b18ba2a6234bdbcbdd/transformed/out/jars/classes.jar:/home/codespace/.gradle/caches/8.10.2/transforms/156a123448a7a8b18ba2a6234bdbcbdd/transformed/out/jars/libs/R.jar"
+      resolved="termoneplus:libtermexec:unspecified"
+      folder="/home/codespace/.gradle/caches/8.10.2/transforms/156a123448a7a8b18ba2a6234bdbcbdd/transformed/out"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.annotation:annotation-jvm:1.8.2@jar"
+      jars="/home/codespace/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation-jvm/1.8.2/b8a16fe526014b7941c1debaccaf9c5153692dbb/annotation-jvm-1.8.2.jar"
+      resolved="androidx.annotation:annotation-jvm:1.8.2"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib:1.7.10@jar"
+      jars="/home/codespace/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.7.10/d2abf9e77736acc4450dc4a3f707fa2c10f5099d/kotlin-stdlib-1.7.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib:1.7.10"/>
+  <library
+      name="org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10@jar"
+      jars="/home/codespace/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.7.10/bac80c520d0a9e3f3673bc2658c6ed02ef45a76a/kotlin-stdlib-common-1.7.10.jar"
+      resolved="org.jetbrains.kotlin:kotlin-stdlib-common:1.7.10"/>
+  <library
+      name="org.jetbrains:annotations:13.0@jar"
+      jars="/home/codespace/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar"
+      resolved="org.jetbrains:annotations:13.0"/>
+</libraries>

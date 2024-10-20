@@ -1,0 +1,4 @@
+/workspaces/cloudpc/android_sdk/cmake/3.22.1/bin/ninja \
+  -C \
+  /workspaces/cloudpc/termoneplus/libtermexec/.cxx/RelWithDebInfo/4h5k3y2d/arm64-v8a \
+  term-system

@@ -1,0 +1,2 @@
+ninja: Entering directory `/workspaces/cloudpc/termoneplus/libtermexec/.cxx/Debug/3v56o1c4/x86_64'
+ninja: no work to do.

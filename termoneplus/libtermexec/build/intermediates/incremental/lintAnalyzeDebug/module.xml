@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/workspaces/cloudpc/termoneplus/libtermexec"
+    name=":libtermexec"
+    type="LIBRARY"
+    maven="termoneplus:libtermexec:unspecified"
+    agpVersion="8.6.1"
+    buildFolder="build"
+    bootClassPath="/workspaces/cloudpc/android_sdk/platforms/android-34/android.jar:/workspaces/cloudpc/android_sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="1.8"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="debug"/>
+</lint-module>

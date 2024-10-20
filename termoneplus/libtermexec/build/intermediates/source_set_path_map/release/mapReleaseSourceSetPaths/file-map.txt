@@ -1,0 +1,7 @@
+jackpal.androidterm.libtermexec-pngs-0 /workspaces/cloudpc/termoneplus/libtermexec/build/generated/res/pngs/release
+jackpal.androidterm.libtermexec-resValues-1 /workspaces/cloudpc/termoneplus/libtermexec/build/generated/res/resValues/release
+jackpal.androidterm.libtermexec-mergeReleaseResources-2 /workspaces/cloudpc/termoneplus/libtermexec/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+jackpal.androidterm.libtermexec-mergeReleaseResources-3 /workspaces/cloudpc/termoneplus/libtermexec/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+jackpal.androidterm.libtermexec-release-4 /workspaces/cloudpc/termoneplus/libtermexec/build/intermediates/merged_res/release/mergeReleaseResources
+jackpal.androidterm.libtermexec-main-5 /workspaces/cloudpc/termoneplus/libtermexec/src/main/res
+jackpal.androidterm.libtermexec-release-6 /workspaces/cloudpc/termoneplus/libtermexec/src/release/res

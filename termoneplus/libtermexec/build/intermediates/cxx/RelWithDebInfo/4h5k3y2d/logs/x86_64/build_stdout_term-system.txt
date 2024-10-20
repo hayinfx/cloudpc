@@ -1,0 +1,7 @@
+ninja: Entering directory `/workspaces/cloudpc/termoneplus/libtermexec/.cxx/RelWithDebInfo/4h5k3y2d/x86_64'
+[1/6] Building C object CMakeFiles/term-system.dir/grantpt.c.o
+[2/6] Building C object CMakeFiles/term-system.dir/registration.c.o
+[3/6] Building C object CMakeFiles/term-system.dir/compat.c.o
+[4/6] Building C object CMakeFiles/term-system.dir/termio.c.o
+[5/6] Building C object CMakeFiles/term-system.dir/process.c.o
+[6/6] Linking C shared library /workspaces/cloudpc/termoneplus/libtermexec/build/intermediates/cxx/RelWithDebInfo/4h5k3y2d/obj/x86_64/libterm-system.so
