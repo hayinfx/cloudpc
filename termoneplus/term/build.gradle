@@ -1,0 +1,117 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace "com.termoneplus"
+
+    compileSdk rootProject.ext.compileSdk
+    buildToolsVersion = rootProject.ext.buildToolsVersion
+    ndkVersion rootProject.ext.ndkVersion
+    defaultConfig {
+        applicationId "com.termoneplus"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+        vectorDrawables.useSupportLibrary = true
+
+        versionCode 520
+        versionName '5.2.0'
+
+        manifestPlaceholders.applicationIdSuffix = ""
+        buildConfigField("String", "APPLICATION_ID_SUFFIX", "\"\"")
+        externalNativeBuild {
+            cmake {
+                arguments "-DAPPLICATION_ID:STRING=${applicationId}"
+            }
+        }
+    }
+    externalNativeBuild {
+        cmake {
+            path "src/main/jni/CMakeLists.txt"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    flavorDimensions = ["catalog"]
+    productFlavors {
+        play {
+            // Google Play store
+            dimension 'catalog'
+        }
+        full {
+            dimension 'catalog'
+            versionName android.defaultConfig.versionName + "/X"
+        }
+    }
+    if (project.hasProperty("signing.properties")) {
+
+        Properties properties = new Properties()
+        properties.load(new FileInputStream(file(project.property("signing.properties"))))
+
+        signingConfigs {
+            release {
+                storeFile file(properties["store.file"])
+                storePassword properties["store.password"]
+                keyAlias properties["key.alias"]
+                keyPassword properties["key.password"]
+            }
+        }
+
+        android.buildTypes.release.signingConfig = signingConfigs.release
+    }
+    buildTypes {
+        debug {
+            applicationIdSuffix ".devel"
+
+            // NOTE: used in third party development applications
+            manifestPlaceholders.applicationIdSuffix = "${applicationIdSuffix}"
+            buildConfigField("String", "APPLICATION_ID_SUFFIX", "\"${applicationIdSuffix}\"")
+            externalNativeBuild {
+                cmake {
+                    arguments "-DAPPLICATION_ID:STRING=${defaultConfig.applicationId}${applicationIdSuffix}"
+                }
+            }
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    buildFeatures {
+        aidl true
+        buildConfig true
+    }
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging true
+        }
+    }
+
+    applicationVariants.configureEach { variant ->
+        variant.resValue "string", "application_version", variant.versionName
+    }
+}
+
+dependencies {
+    implementation project(':emulatorview')
+    implementation project(':libtermexec')
+
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.preference
+    implementation libs.annotation
+}
+
+tasks.register('elfcleaner', Exec) {
+    // only unix
+    commandLine 'sh', '-c', 'find build/*/stripped* -name lib*.so -print0 | xargs -0 -P 0 elf-cleaner'
+}
+
+tasks.configureEach { task ->
+    if (task.name.matches('strip.*DebugSymbols')) {
+        task.finalizedBy elfcleaner
+    }
+}

@@ -1,0 +1,60 @@
+plugins {
+    id 'com.android.application'
+}
+
+// "TermOne Plus" applicationId
+def termApplicationId = "com.termoneplus"
+
+android {
+    namespace 'com.termoneplus.sample.addon'
+
+    compileSdk rootProject.ext.compileSdk
+    buildToolsVersion = rootProject.ext.buildToolsVersion
+    ndkVersion rootProject.ext.ndkVersion
+    defaultConfig {
+        applicationId "com.termoneplus.sample.addon"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+        versionCode 1
+        versionName "1.0"
+
+        manifestPlaceholders.applicationIdSuffix = ""
+
+        manifestPlaceholders.termApplicationId = "${termApplicationId}"
+    }
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        debug {
+            applicationIdSuffix ".devel"
+
+            // NOTE: used in third party development applications
+            manifestPlaceholders.applicationIdSuffix = "${applicationIdSuffix}"
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildFeatures {
+        aidl true
+        buildConfig true
+    }
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging true
+        }
+    }
+}
+
+dependencies {
+    implementation libs.appcompat
+}

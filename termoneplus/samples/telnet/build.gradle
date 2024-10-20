@@ -1,0 +1,39 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace "jackpal.androidterm.sample.telnet"
+
+    compileSdk rootProject.ext.compileSdk
+    buildToolsVersion = rootProject.ext.buildToolsVersion
+    defaultConfig {
+        applicationId "com.termoneplus.sample.telnet"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+        versionCode 210
+        versionName '2.1.0'
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    productFlavors {
+    }
+    buildTypes {
+        debug {
+            applicationIdSuffix ".devel"
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation project(':emulatorview')
+
+    implementation libs.appcompat
+}
