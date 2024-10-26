@@ -1,0 +1,273 @@
+Package: apt-transport-tor
+Architecture: all
+Installed-Size: 0
+Maintainer: @termux
+Version: 2.8.1-1
+Homepage: https://packages.debian.org/apt
+Depends: tor, apt (= 2.8.1-1)
+Description: APT transport for anonymous package downloads via Tor
+Filename: dists/mydist/main/binary-all/apt-transport-tor_2.8.1-1_all.deb
+Size: 912
+MD5Sum: 2cd273a828ac6299bfdfd63b535cca0a
+SHA1: 470d3036164d87cc16bba73102dee2960aaf142f
+SHA256: 879dc21b7bdb2760143c1bd2f7f5674084074755058ed12753a168f5b3be750e
+SHA512: 01d2e99a20eb13fb24fbf18f22d0707f43f36c51a0b61d0015a17c9ab61559ab4676fd9d5a9ccdb81ef885c0b1179d77d0c7c9f65ad1d9f50fd43b236cc481cc
+
+Package: ca-certificates-java
+Architecture: all
+Installed-Size: 172
+Maintainer: @termux
+Version: 1:2024.09.24
+Homepage: https://curl.se/docs/caextract.html
+Depends: ca-certificates (= 1:2024.09.24)
+Description: Common CA certificates (java keystore format)
+Filename: dists/mydist/main/binary-all/ca-certificates-java_1:2024.09.24_all.deb
+Size: 117732
+MD5Sum: 80c47e52172089c771762f35dd95c26a
+SHA1: f366c1309a69f533f41845da5f480a52fe68c011
+SHA256: fda0f2c6ac92c2498407636756fe86c7fc7ee93cdcd9b9573d0226c771e35a07
+SHA512: 40bd98f865001ba3d74de6940aafe2b87fbdeee51a7cc2e4303d2c00e28902b4ee098e82dfe672bf033e830434965ef48de44e15aee6e137057524350908052a
+
+Package: ca-certificates
+Architecture: all
+Installed-Size: 232
+Maintainer: @termux
+Version: 1:2024.09.24
+Homepage: https://curl.se/docs/caextract.html
+Description: Common CA certificates
+Filename: dists/mydist/main/binary-all/ca-certificates_1:2024.09.24_all.deb
+Size: 128660
+MD5Sum: 81d65a7bdadf7dd5c1c170cc95c47769
+SHA1: 474d253e1205c1d3b15a129a8a09aac66d45f1f4
+SHA256: 153283d80d1c58266938726beca8ed316c233e4fe652850d265ffcda1a167935
+SHA512: ba9c70a6f9c2e43bcc8b12289248bbfbe13aa3759923d13d9256b69f940ee2c8d879491c0e4c6900fa38f0b5d998c8bc87efd6635dacaad45411701941b8f9e9
+
+Package: docbook-xml
+Architecture: all
+Installed-Size: 2352
+Maintainer: @termux
+Version: 4.5-4
+Homepage: https://www.oasis-open.org/docbook/
+Depends: libxml2-utils
+Description: A widely used XML scheme for writing documentation and help
+Filename: dists/mydist/main/binary-all/docbook-xml_4.5-4_all.deb
+Size: 78144
+MD5Sum: 84e9948ddf761e5d9e08d6aafc34d86e
+SHA1: 0d30fef53d4c01c59895865f844824a6a14bbf82
+SHA256: efb51ea5bb130c441ab681f38e4897afc32849a9f4bdc0f15fb38723444f2980
+SHA512: ee91e38260c8bca11ec77adc009c1d816f03c49cddc9505b805b6b6d8e45d3b216d10e1a58ba8f3db8e033e30af95bed0ea930898a621fd743738192360a46a0
+
+Package: docbook-xsl
+Architecture: all
+Installed-Size: 33288
+Maintainer: @termux
+Version: 1.79.2-1
+Homepage: https://docbook.org/
+Depends: docbook-xml, libxml2-utils, xsltproc
+Description: XML stylesheets for Docbook-xml transformations
+Filename: dists/mydist/main/binary-all/docbook-xsl_1.79.2-1_all.deb
+Size: 1234756
+MD5Sum: 5ddd53b6afb0fa78d60a65db21a3824d
+SHA1: 6d3ce9781fa0a7b83249820977cb39a84fffae9a
+SHA256: 73e3416413372ba2002f94198d2c5c709f114f28d47d6748bf14e354833a68ac
+SHA512: 7b3396bbb08f726924cc8457dec59ac84c77c300affa14db2052f38533fee986b26bc6ab47833afb23fdb251ce47f081961cc1106e3734e48cb1ea5072106a0d
+
+Package: dpkg-perl
+Architecture: all
+Installed-Size: 836
+Maintainer: @termux
+Version: 1.22.6-1
+Homepage: https://packages.debian.org/dpkg
+Depends: perl, clang, make, dpkg (= 1.22.6-1)
+Description: Perl modules for dpkg
+Filename: dists/mydist/main/binary-all/dpkg-perl_1.22.6-1_all.deb
+Size: 126224
+MD5Sum: dac400c1a1a0cf9a0bfc310434eeef41
+SHA1: fc0f538049c6ef97ba545dd156bcf728c98fa9ea
+SHA256: 4bacde9da520de43b45b2aeca95b4de557210b40797ccdcaae8b4a3733be3472
+SHA512: 59f58c179b9d0c6ff08ff80950ed52f8640fcd274a874403f6133f01bbd6079a63708dce84b1fb5bd6c60f3092213859e78c35d7f674a61e3307debdca5f52c1
+
+Package: dpkg-scanpackages
+Architecture: all
+Installed-Size: 16
+Maintainer: @termux
+Version: 1.22.6-1
+Homepage: https://packages.debian.org/dpkg
+Depends: dpkg-perl, dpkg (= 1.22.6-1)
+Description: Creates Packages index files
+Filename: dists/mydist/main/binary-all/dpkg-scanpackages_1.22.6-1_all.deb
+Size: 6488
+MD5Sum: 8cf1306913a9f34b30898132a20c252d
+SHA1: 0d214c6e86f94930b4ea1c948526be99c189d51b
+SHA256: b5a11d9cef6a297a48d4dbc1c611d4733d62e897f61b1b853b6b1968ecdf8931
+SHA512: 597b63dff4a8b415e8f609463cd4fe51e9e9eb298310f1e0def4147e824fa5feaadc9d183f1ebc326b44506e913cc26de392ceeae61039ca671962c3d66df8cf
+
+Package: python-ensurepip-wheels
+Architecture: all
+Installed-Size: 1776
+Maintainer: @termux
+Version: 3.12.7-1
+Homepage: https://python.org/
+Depends: python (= 3.12.7-1)
+Breaks: python (<< 3.11.1-3)
+Replaces: python (<< 3.11.1-3)
+Description: Wheels for Python ensurepip
+Filename: dists/mydist/main/binary-all/python-ensurepip-wheels_3.12.7-1_all.deb
+Size: 1775168
+MD5Sum: 6753df864278b73d586428b655d01d61
+SHA1: 3075806f237e7506786d12d8c519ef904e19f141
+SHA256: 328662206134ced4153f26749777ce26fede7268107d7a3806dca6179ff5e7ad
+SHA512: f566c537b2307eb13cdaab0d2df268660b4002b932ed0729bcb290409a5d148163b35b1bf431fc66f29a58e41c186825c8c01bb4b39a846df15645fe0755688a
+
+Package: python-xcbgen
+Architecture: all
+Installed-Size: 404
+Maintainer: @termux
+Version: 1.17.0-1
+Homepage: https://xcb.freedesktop.org/
+Depends: xcb-proto (= 1.17.0-1)
+Breaks: xcb-proto (<< 1.15.2)
+Recommends: python
+Replaces: xcb-proto (<< 1.15.2)
+Description: The xcbgen Python module
+Filename: dists/mydist/main/binary-all/python-xcbgen_1.17.0-1_all.deb
+Size: 44576
+MD5Sum: 6f226723a5ef6e80bdc03cb9d196c8c6
+SHA1: a9c1c31c8ebed6c0f7c2665c23e4d9a38ff0c8dc
+SHA256: 3843569684a226c196f0cf3381b8c7ee7a1eb3e464acdd5890db366d60edc890
+SHA512: 3d597c90ad5c1a3491750ec0109057a1dd449a5b1cf6f3ec5290b1425d3a79868405eb9c9fafb73e4a07ca568b6cab4d8abbc5133d2cb49b9fcca7d3cbfed0d8
+
+Package: termux-am
+Architecture: all
+Installed-Size: 572
+Maintainer: Michal Bednarski @michalbednarski
+Version: 0.8.0-1
+Homepage: https://github.com/termux/TermuxAm
+Conflicts: termux-tools (<< 0.51)
+Description: Android Oreo-compatible am command reimplementation
+Filename: dists/mydist/main/binary-all/termux-am_0.8.0-1_all.deb
+Size: 577236
+MD5Sum: 5a90c2199687ee284da34d661011935f
+SHA1: d8d7fbe35ccdcadf243de617e4ac019ebc066247
+SHA256: 3fe9ddfbb6b6a64d1f6c3cd6a19be855d948e688767db3971ea9bc2175276b73
+SHA512: 12b46b5a7a11834a4951bfbe2307df6a7f95bb5419ca363df6221bf69ef5317a645160e49aaee6779b6d04a08fd96bc675cea78b3b3a7e7b777da813fcb30cd6
+
+Package: termux-keyring
+Architecture: all
+Installed-Size: 68
+Maintainer: @termux
+Version: 3.12-1
+Homepage: https://github.com/termux
+Essential: yes
+Description: GPG public keys for the official Termux repositories
+Filename: dists/mydist/main/binary-all/termux-keyring_3.12-1_all.deb
+Size: 39324
+MD5Sum: e4727953805ab521925357429376112c
+SHA1: b3cf23ee04a02f0892fbc7621325993a75630d12
+SHA256: 457658a27598765f75f1ad7859407b2e86eb709873aff2ffbe89114c9f7a6218
+SHA512: 839b31db0e1032284178555f8f493051dfb5b6561a1c42667163ad2672698773bd828b252d317735d13e84b9e4524427334f278f3c42b842cfbe38045cb78731
+
+Package: termux-licenses
+Architecture: all
+Installed-Size: 336
+Maintainer: @termux
+Version: 2.0-3
+Homepage: https://termux.dev
+Essential: yes
+Description: Contains LICENSE files for common licenses
+Filename: dists/mydist/main/binary-all/termux-licenses_2.0-3_all.deb
+Size: 52104
+MD5Sum: f13092b620e5593582096fae14fdf367
+SHA1: a191eb259cf3290d4314c81bf79cf0aaa3db1770
+SHA256: 3bcae9c6f75383aff9605cdd04f2c716ed22377be1d9a8424164e4e2c9b3442b
+SHA512: 7c0ef83e53fadf1d9e1df839ee3237dc44b5eb9e93030f9b777695227c5fe56cd66cfc45e30f50797aee19a6b16387412ba1d91a937dc78e3e2b82017e9a969c
+
+Package: ttf-dejavu
+Architecture: all
+Installed-Size: 10060
+Maintainer: @termux
+Version: 2.37-8
+Homepage: https://dejavu-fonts.github.io/
+Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+Filename: dists/mydist/main/binary-all/ttf-dejavu_2.37-8_all.deb
+Size: 2460168
+MD5Sum: 1587c54e3d5a698cbf1e8004f7c91eb2
+SHA1: dd2ced57f70da71a28f57c8b8dff8728e936e9f2
+SHA256: 4fb951a98fe6c3e3c7315a695fd0607f52cce0d4ac0b46444c59d76f114e0e47
+SHA512: d230ef90c3d109e7c539fec043768bbde283fdea5a741bc85164aa0af8eb52a5e24cfb7d3f905a6eabf46a2df0f6de6f613ee8f2817825a7eed3d1730bb9e97b
+
+Package: vim-runtime
+Architecture: all
+Installed-Size: 28908
+Maintainer: @termux
+Version: 9.1.0800
+Homepage: https://www.vim.org
+Description: Vi IMproved - Runtime files
+Filename: dists/mydist/main/binary-all/vim-runtime_9.1.0800_all.deb
+Size: 4967804
+MD5Sum: 9a5958d84127ea7eb1f4d7bca28cf15d
+SHA1: ea685bfce57d939dcc7ea11ea0b1e87a1147c844
+SHA256: 999ee5b234b25bbcb5abbeef8dd471eb7957b648078ea5a608d3375be79455cb
+SHA512: 008674c2c1cba9135f35bd88052f5c67b56183bbcf12a2fcfa0478f4b6edf35cb5ab3062ed10402be5c05814b333586c46c5603e5e97349fff72a05cdb7ec92c
+
+Package: xcb-proto
+Architecture: all
+Installed-Size: 772
+Maintainer: @termux
+Version: 1.17.0-1
+Homepage: https://xcb.freedesktop.org/
+Conflicts: xcbproto
+Replaces: xcbproto
+Description: XML-XCB protocol descriptions
+Filename: dists/mydist/main/binary-all/xcb-proto_1.17.0-1_all.deb
+Size: 78636
+MD5Sum: 1d41012c3fe922a1af811ca259117373
+SHA1: 293c24f121c31f0bca2e7bd58dbcdbf0296a9d9b
+SHA256: f135f5c3ceef36687bafa57f63b6729efaec5e592e20e9653253ae38290fd8a0
+SHA512: 1e026aba45d9fe6941904b878d1c06b6b8fd4794d90b97c5cbdf1d69572756e537c18e065996186de2e64c2c1669fe05f995ddaf7a80aafe5f2cef92f923b04c
+
+Package: xorg-util-macros
+Architecture: all
+Installed-Size: 96
+Maintainer: @termux
+Version: 1.20.1
+Homepage: https://xorg.freedesktop.org/
+Description: X.Org Autotools macros
+Filename: dists/mydist/main/binary-all/xorg-util-macros_1.20.1_all.deb
+Size: 21988
+MD5Sum: bb8ed54d0ba81d96e2e827b145878ac3
+SHA1: 9701ef33ae4f024c5697d060f087277120f63a94
+SHA256: dd9806d5eb795b34224977b00825ef3359a5f83708acebf4e882e329b0a2df03
+SHA512: 1ab12f5f5d733bd68a24efe347dac901f64b90455b2ebb45e8e383872927ef18e6bd8b0dee738b754ce6061146a79775dc360fe9592faff25e9ce9b42107e108
+
+Package: xorgproto
+Architecture: all
+Installed-Size: 2220
+Maintainer: @termux
+Version: 2024.1
+Homepage: https://xorg.freedesktop.org/
+Depends: xorg-util-macros
+Conflicts: x11-proto
+Replaces: x11-proto
+Description: X.Org X11 Protocol headers
+Filename: dists/mydist/main/binary-all/xorgproto_2024.1_all.deb
+Size: 247944
+MD5Sum: 7a23ddc93097b786a7e551172a873fa2
+SHA1: dff1929e976ee500097c387abbcfabfeac258464
+SHA256: 130d38b275d127f3c68d8707e9d1fffcaa2b2848222bd96f42461b66cae23eda
+SHA512: 86849ff1a236e46193e71aebf0904b9b7b7360b5aeecb56f6aaad1ddaf146b90c828da3e4e8cb5ff6d7e0e1de0119355cccea64c52539779c5f5ab6084165ad5
+
+Package: xtrans
+Architecture: all
+Installed-Size: 240
+Maintainer: @termux
+Version: 1.5.1
+Homepage: https://xorg.freedesktop.org/
+Description: X transport library
+Filename: dists/mydist/main/binary-all/xtrans_1.5.1_all.deb
+Size: 39588
+MD5Sum: b9761f7aabb86efa50d640eaa0a3fa89
+SHA1: d712f68d7458d44564e328de26cbe636e5aa3087
+SHA256: 87ef1e067e68f3070eb9926597807a136d71d1249663381d75426a7f2fbf3ae4
+SHA512: bfc03195ffeb7d68984312b3fa3f529164c450340fe31f2d00543531007718d7f753161715e99947f4a03d46900a71caf741b3af09ffd08934ae8f0e511287a2
+
