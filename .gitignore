@@ -3,3 +3,4 @@ amdroid_sdk
 andrpid_sdk/*
 #AndroidIDE/
 #termux-app/
+termux-packages/
